@@ -3,6 +3,7 @@ import './App.css';
 import './components/dashboard_header/dashboard_header';
 import './components/sidebar/sidebar';
 import './pages/home/home';
+// import ReactDOM from 'react-dom';
 
 // function App() {
 //   return (
@@ -31,6 +32,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Dashboard</h1>
+        <sidebar />
       </header>
     </div>
   );
